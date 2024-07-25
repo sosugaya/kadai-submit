@@ -1,0 +1,37 @@
+sousugaya@So-MacBook-Pro git_challenge % pwd
+/Users/sousugaya/Desktop/#SamuraiEngineer/samurai-lesson/git_challenge
+sousugaya@So-MacBook-Pro git_challenge % cd /Users/sousugaya/Desktop/#SamuraiEngineer/samurai-lesson
+sousugaya@So-MacBook-Pro samurai-lesson % pwd
+/Users/sousugaya/Desktop/#SamuraiEngineer/samurai-lesson
+sousugaya@So-MacBook-Pro samurai-lesson % mkdir git_challenge
+sousugaya@So-MacBook-Pro samurai-lesson % cd  git_challenge
+sousugaya@So-MacBook-Pro git_challenge % pwd
+/Users/sousugaya/Desktop/#SamuraiEngineer/samurai-lesson/git_challenge
+sousugaya@So-MacBook-Pro git_challenge % git init
+Initialized empty Git repository in /Users/sousugaya/Desktop/#SamuraiEngineer/samurai-lesson/git_challenge/.git/
+sousugaya@So-MacBook-Pro git_challenge % echo "Hello, world"! >> hello_world.txt
+sousugaya@So-MacBook-Pro git_challenge % git add hello_world.txt 
+sousugaya@So-MacBook-Pro git_challenge % git commit -m "hello_world.txt を追加"
+[main (root-commit) 522f041] hello_world.txt を追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+sousugaya@So-MacBook-Pro git_challenge % echo "Hello, world"! >> hello_world.txt
+sousugaya@So-MacBook-Pro git_challenge % echo " \nこんにちは、世界！" >> hello_world.txt
+sousugaya@So-MacBook-Pro git_challenge % git add hello_world.txt 
+sousugaya@So-MacBook-Pro git_challenge % commit -m "日本語訳を追記"
+zsh: command not found: commit
+sousugaya@So-MacBook-Pro git_challenge % git add hello_world.txt 
+sousugaya@So-MacBook-Pro git_challenge % git commit -m "日本語訳を追記"
+[main d065fe5] 日本語訳を追記
+ 1 file changed, 1 insertion(+)
+sousugaya@So-MacBook-Pro git_challenge % git log --oneline                                                         
+d065fe5 (HEAD -> main) 日本語訳を追記
+522f041 hello_world.txt を追加
+sousugaya@So-MacBook-Pro git_challenge % 
+
+
+
+
+
+
+
