@@ -1,11 +1,3 @@
-//日付の表示形式 2023年8月22日	
-//const writeYearDate = () =>{
-//  console.log(Date.prototype.setTime());
-//}
-
-//writeYearDate();
-
-//
 
 // 今日の日付を取得
 const today = new Date();
