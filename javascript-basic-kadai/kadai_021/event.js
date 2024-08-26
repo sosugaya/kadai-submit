@@ -9,10 +9,8 @@ const updateText = () => {
   textElement.textContent='ボタンをクリックしました';
 }
 
-
 // HTML要素がクリックされたときにイベント処理を実行する
 clickBtn.addEventListener('click',() => {
-
   // 2秒（2000ミリ秒）の待ち時間を設定し、非同期処理を実行する
   setTimeout ( 
 // updateText関数として定義して、それを setTimeout に渡す場合
